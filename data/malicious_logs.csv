@@ -1,0 +1,6 @@
+Timestamp,Source_IP,Destination_IP,Source_Port,Destination_Port,Protocol,Action,Message
+2025-01-28T10:23:45Z,192.168.1.100,45.76.23.89,445,443,TCP,Blocked,Malware callback detected
+2025-01-28T10:28:06Z,192.168.1.150,185.92.26.54,1025,22,TCP,Blocked,SSH brute-force attempt detected
+2025-01-28T10:40:22Z,192.168.1.101,141.98.81.122,6001,3389,TCP,Blocked,Unauthorized RDP connection attempt
+2025-01-28T10:45:50Z,10.0.1.10,77.247.110.8,12345,443,TCP,Blocked,Connection to known C2 server
+2025-01-28T10:52:44Z,10.10.10.20,185.230.63.186,2222,80,TCP,Blocked,HTTP traffic to phishing site
