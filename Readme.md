@@ -62,11 +62,8 @@ if not suspicious_events.empty:
 ### 4. Visualization with Grafana 
 Export processed logs to PostgreSQL and visualize in Grafana.
 
-```
-
 ![Malicious URL](https://github.com/mekaizen/threat_hunting/blob/main/images/Malicious%20URL.png)
 
-```
 
 ## Automation
 Schedule threat hunting using cron jobs or a task scheduler:
